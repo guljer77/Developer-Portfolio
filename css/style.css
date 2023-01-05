@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
+hr{
+    margin-bottom: 30px;
+}
 header{
     background-color: #FFF8F3;
     background-image: url(../images/header_bg.png), url(../images/developer.png);
@@ -71,6 +74,8 @@ main{
 }
 .about-section p{
     text-align: center;
+    font-size: 18px;
+    color: #757575;
 }
 .main-title{
     font-size: 35px;
@@ -82,4 +87,99 @@ main{
     display: flex;
     justify-content: space-around;
     padding-top: 30px;
+}
+.info-item p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+    padding: 7px 0;
+}
+.info-item .title-info{
+    font-size: 20px;
+    color: black;
+    padding: 0;
+}
+.what-i-do{
+    margin-top: 100px;
+}
+.main-p{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+    padding: 0px 100px 30px 100px;
+}
+.do-item{
+    display: flex;
+    gap: 24px;
+}
+.do-item-list{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+    margin-top: 30px;
+}
+.do-item-list h3{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 0;
+}
+.do-item-list p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+}
+.resume-section{
+    margin: 100px 0;
+}
+.resume-title-tag{
+    display: flex;
+    gap: 24px;
+    margin-top: 100px;
+}
+.resume-main-title{
+    font-size: 30px;
+    font-size: 700;
+    margin-bottom: 30px;
+}
+.main-three{
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+.main-four{
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+    padding-bottom: 20px;
+}
+.main-pragraph{
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+    padding-bottom: 30px;
+}
+.resume-section .resume-btn{
+    text-align: center;
+}
+.contact-section{
+    background-color: #FFF8F3;
+    display: flex;
+    padding: 100px;
+    gap: 117px;
+    justify-content: space-between;
+}
+.address{
+    width: 50%;
+}
+.icon-item{
+    display: flex;
+    gap: 24px;
+}
+.icon-item li{
+    list-style: none;
+}
+.from-section{
+    width: 50%;
 }
